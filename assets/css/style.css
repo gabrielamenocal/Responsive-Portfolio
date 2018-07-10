@@ -47,6 +47,7 @@ html{
     text-align: center;
     padding: 10px;
 }
+
 .colright{
     width: 50%;
     float: right;
@@ -59,7 +60,8 @@ html{
 
 nav{
 	text-align: right;
-    position: fixed;
+    position:  absolute;
+    z-index:10;
     top: 0;
     width: 100%;
     margin: 0px;
@@ -185,3 +187,204 @@ input[type=submit]:hover {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 14px;
 }
+
+
+@media screen and (max-width: 850px){
+
+    .colright{
+        width: 100%;
+        float: right;
+    }
+    
+    .collefts{
+        width: 100%;
+        float: left;
+    }
+
+    /* body{
+            background: red;
+        } */
+   
+    .photocontainerporta{
+            width: 250px;
+            height: 300px;
+            float: auto;
+            margin: 10px;
+            border: 2px solid #dddddd;
+            position: relative;
+            z-index: 1;
+    }
+
+    #photocontainer{
+        width: 100px;
+        float: left;
+        margin: 10px;
+        border: 1px solid #dddddd;
+        position: fixed;
+        z-index: 5;
+        }
+
+        .container{
+            width: 415.2px;
+            margin: 0px;
+            margin-bottom: 35px;
+            margin-top: 35px;
+        }
+
+.photocontainerporta{
+        width: 250px;
+        height: 300px;
+        float: auto;
+        margin: 10px;
+        border: 2px solid #dddddd;
+        position: relative;
+        z-index: 1;
+}
+    
+   .portbox{
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    position: absolute;
+    z-index: 5;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    }       
+
+}
+
+
+@media screen and (max-width: 750px){
+    nav{
+        text-align: right;
+        position:  relative;
+        z-index: auto;
+        top: 0;
+        width: 100%;
+        margin: 0px;
+        margin-right: 10px;
+        margin-top: 5px;
+        display: inline-block;
+        /* background-color: red; */
+    }
+    
+    nav a{
+        display: inline-block;
+        padding: 40px 25px;
+        color: #777777;
+        text-decoration: none;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+	
+}
+
+@media screen and (max-width:410px){
+  
+    nav{
+        text-align: right;
+        position:  relative;
+        z-index: auto;
+        top: 0;
+        width: 100%;
+        margin: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        display: inline-block;
+        /* background-color: red; */
+    }
+
+}
+
+
+@media screen and (max-width:350px){
+
+      
+    .collefts .collefts{
+        width: 80%;
+        overflow: hidden;
+    }
+
+
+    .container{
+        margin: 10px auto;
+        width: 70%;
+        /* padding: 5px; */
+        border: 2px solid #dddddd;
+        text-align: justify;
+        position: relative;
+        background-color: #ffffff;
+        padding: 0px 10px 0px 10px;
+        margin: 0px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        }
+
+    /* body{
+        background: blue;
+    } */
+
+    #mainheader{
+        display: inline-block;
+        text-align: center;
+        margin: 0px;
+        background-color: #4aaaa5;
+        color: white;
+        padding: 15px; 
+        font-size: 1.75em;   
+        /* font-size: 0.5; */
+        /* background-color: red; */        
+    }
+
+    nav{
+        text-align: right;
+        position:  relative;
+        z-index: auto;
+        top: 0;
+        width: 100%;
+        margin: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        display: inline-block;
+        /* background-color: red; */
+    }
+
+    .photocontainerporta{
+        width: 150px;
+        float: left;
+        margin: 10px;
+        border: 1px solid #dddddd;
+        position: relative;
+        z-index: 5;
+        }
+   
+
+        .portbox{
+            width: 150px;
+            position: absolute;
+            z-index: 5;
+            background-color: #4aaaa5;
+            /* color: red; */
+            text-align: center;
+            padding: 10px;
+        }
+        
+
+
+/* @media screen and (max-width: 150px){
+
+    #mainheader{
+        display: inline-block;
+        text-align: center;
+        margin-left: 0px;
+        background-color: #4aaaa5;
+        color: white;
+        padding: 15px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 91px;
+        width: 50px;
+        color
+        /* font-size: 0.5em; */
+  
